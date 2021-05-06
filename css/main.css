@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  max-width: 1440px;
+  background-color: #090b1a;
+  font-size: 15px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* y-axis */
+  justify-content: center;
+  /* x-axis */
+}
+
+.card {
+  display: flex;
+  border: 2px solid white;
+  background-color: #1b1938;
+}
+
+.card__content {
+  display: flex;
+  flex: 1 0 50%;
+}
+.card__content--header h1 {
+  color: white;
+}
+.card__content--paragraph p {
+  color: rgba(255, 255, 255, 0.75);
+}
+.card__content--stats {
+  color: rgba(255, 255, 255, 0.6);
+}
+.card__content--stats span {
+  color: white;
+}
+
+.card__image {
+  display: flex;
+  flex: 1 0 50%;
+}
+.card__image img {
+  width: 100%;
+  height: auto;
+}/*# sourceMappingURL=main.css.map */
