@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/mackans95/FrontEndChallengeOne
+- Solution URL: https://www.frontendmentor.io/solutions/sass-flexbox-and-basic-html-PqBfpsydW
 - Live Site URL: https://mackans95.github.io/FrontEndChallengeOne
 
 ## My process
