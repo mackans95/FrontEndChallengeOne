@@ -1,0 +1,62 @@
+.card__content {
+  display: flex;
+  flex: 1 0 50%;
+  background-color: $dark-desaturated-blue;
+  flex-direction: column;
+  padding: 90px 70px;
+
+  &--header {
+    padding-bottom: 35px;
+
+    h1 {
+      color: $white;
+      font-family: $Inter-font;
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 290%;
+    }
+
+    span {
+      color: $soft-violet;
+    }
+  }
+
+  &--paragraph {
+    p {
+      color: $main-paragraph;
+      font-family: $Inter-font;
+      font-weight: 400;
+      font-size: 120%;
+      padding-right: 5em;
+      line-height: 1.75rem;
+    }
+  }
+
+  &--stats {
+    color: $white;
+    font-family: $Lexend-Deca-font;
+    font-size: 150%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+
+    span {
+      color: $stat-headings;
+      font-family: $Lexend-Deca-font;
+      font-weight: 400;
+      font-size: 50%;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.stat-one,
+.stat-two,
+.stat-three {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-three {
+  margin-right: 3em;
+}

@@ -1,0 +1,12 @@
+.card__image {
+  display: flex;
+  flex: 1 0 50%;
+  background-color: $soft-violet;
+
+  img {
+    width: 100%;
+    height: auto;
+    mix-blend-mode: multiply;
+    filter: contrast(80%) brightness(130%) opacity(0.8);
+  }
+}

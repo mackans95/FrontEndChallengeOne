@@ -92,10 +92,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS filter generator by Barrett Sonntag](https://codepen.io/sosuke/pen/Pjoqqp) - This helped me for when trying to fiddle with the background-colors of my images.
+  The solutions didnt end up solving my issue, but still was a cool little thing and i thought i would share it.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
@@ -105,6 +105,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- Frontend Mentor - [@kristinalesnjakovic] (https://github.com/kristinalesnjakovic/Stats-preview-card-component)
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Got tons of help from looking though Kristina's solution regarding the colors on the image, as i was having a rough time
+playing around with filters, but they had used a nice litte property called: mix-blend-mode: multiply, that solved it perfectly.

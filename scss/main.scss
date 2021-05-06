@@ -1,8 +1,5 @@
-@import "components/colors";
-@import "components/typography";
-
-$mobile: 375px;
-$desktop: 1440px;
+@import "components/colors", "components/variables", "components/typography";
+@import "sections/main-card", "sections/card-content", "sections/card-image";
 
 * {
   margin: 0;
@@ -21,47 +18,6 @@ body {
   margin: 0 auto;
   height: 100vh;
   display: flex;
-  align-items: center; /* y-axis */
-  justify-content: center; /* x-axis */
-}
-
-.card {
-  display: flex;
-  border: 2px solid white;
-  background-color: $dark-desaturated-blue;
-}
-
-.card__content {
-  display: flex;
-  flex: 1 0 50%;
-
-  &--header {
-    h1 {
-      color: $white;
-    }
-  }
-
-  &--paragraph {
-    p {
-      color: $main-paragraph;
-    }
-  }
-
-  &--stats {
-    color: $stat-headings;
-
-    span {
-      color: $white;
-    }
-  }
-}
-
-.card__image {
-  display: flex;
-  flex: 1 0 50%;
-
-  img {
-    width: 100%;
-    height: auto;
-  }
+  align-items: center; // y-axis
+  justify-content: center; // x-axis
 }
