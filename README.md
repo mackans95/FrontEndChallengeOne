@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://mackans95.github.io/FrontEndChallengeOne)
-- Live Site URL: [](https://mackans95.github.io/FrontEndChallengeOne)
+- Solution URL: https://github.com/mackans95/FrontEndChallengeOne
+- Live Site URL: https://mackans95.github.io/FrontEndChallengeOne
 
 ## My process
 
