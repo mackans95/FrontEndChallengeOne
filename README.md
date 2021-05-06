@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](\images\FrontEndChallengeNumberOneScreenshot.png)
+![Screenshot of project](/images/FrontEndChallengeNumberOneScreenshot.png)
 
 ### Links
 
