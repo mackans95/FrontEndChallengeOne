@@ -1,5 +1,12 @@
+@import "../components/mixins";
+
 .card {
   display: flex;
   border-radius: 15px;
   overflow: hidden;
+  width: 80vw;
+
+  @include mq(ipad) {
+    flex-direction: column-reverse;
+  }
 }

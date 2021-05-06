@@ -4,6 +4,12 @@
   display: flex;
   border-radius: 15px;
   overflow: hidden;
+  width: 80vw;
+}
+@media only screen and (max-width: 800px) {
+  .card {
+    flex-direction: column-reverse;
+  }
 }
 
 .card__content {
@@ -13,8 +19,19 @@
   flex-direction: column;
   padding: 90px 70px;
 }
+@media only screen and (max-width: 800px) {
+  .card__content {
+    padding: 20px 30px;
+  }
+}
 .card__content--header {
-  padding-bottom: 35px;
+  padding-bottom: 30px;
+}
+@media only screen and (max-width: 800px) {
+  .card__content--header {
+    text-align: center;
+    padding: 15px;
+  }
 }
 .card__content--header h1 {
   color: white;
@@ -26,6 +43,9 @@
 .card__content--header span {
   color: #aa5cdb;
 }
+.card__content--paragraph {
+  padding-bottom: 20px;
+}
 .card__content--paragraph p {
   color: rgba(255, 255, 255, 0.75);
   font-family: "Inter", sans-serif;
@@ -34,6 +54,13 @@
   padding-right: 5em;
   line-height: 1.75rem;
 }
+@media only screen and (max-width: 800px) {
+  .card__content--paragraph p {
+    padding: 0;
+    line-height: 1.5em;
+    font-size: 135%;
+  }
+}
 .card__content--stats {
   color: white;
   font-family: "Lexend Deca", sans-serif;
@@ -41,6 +68,12 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  column-gap: 1em;
+}
+@media only screen and (max-width: 800px) {
+  .card__content--stats {
+    flex-direction: column;
+  }
 }
 .card__content--stats span {
   color: rgba(255, 255, 255, 0.6);
@@ -55,10 +88,23 @@
 .stat-three {
   display: flex;
   flex-direction: column;
+  line-height: 1.1em;
+}
+@media only screen and (max-width: 800px) {
+  .stat-one,
+.stat-two,
+.stat-three {
+    margin-bottom: 1.2rem;
+  }
 }
 
 .stat-three {
   margin-right: 3em;
+}
+@media only screen and (max-width: 800px) {
+  .stat-three {
+    margin: 0;
+  }
 }
 
 .card__image {
@@ -68,9 +114,20 @@
 }
 .card__image img {
   width: 100%;
+  display: block;
   height: auto;
   mix-blend-mode: multiply;
   filter: contrast(80%) brightness(130%) opacity(0.8);
+}
+@media only screen and (max-width: 1120px) {
+  .card__image {
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .card__image {
+    display: initial;
+  }
 }
 
 * {
@@ -92,4 +149,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: 65%;
+    text-align: center;
+  }
 }/*# sourceMappingURL=main.css.map */

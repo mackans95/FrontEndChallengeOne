@@ -20,4 +20,9 @@ body {
   display: flex;
   align-items: center; // y-axis
   justify-content: center; // x-axis
+
+  @include mq(ipad) {
+    font-size: 65%;
+    text-align: center;
+  }
 }
